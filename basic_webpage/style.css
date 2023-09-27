@@ -1,0 +1,107 @@
+body, h1, p, a, ul, link, h2{
+    margin: 0;
+}
+
+body{
+    background-color: rgb(46, 196, 146);
+}
+
+header{
+    text-align: center;
+    background-color: rgb(122, 163, 17);
+}
+
+section h1{
+     margin-bottom: 20px;
+}
+section{
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    
+}
+nav a{
+    color: red;
+    text-decoration: none;
+    margin: 5px;
+    background-color: rgb(246, 199, 228);
+    padding: 5px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+nav a:hover{
+    background-color: white;
+    color: blue;
+}
+
+p{
+    
+    text-align: center;
+}
+
+button{
+    padding: 7px;
+    background-color: rgb(215, 174, 174);
+    color: rgb(127, 38, 38);
+    margin: 10px;
+}
+
+nav{
+    display: flex;
+    flex-direction: inline;
+    align-items: center;
+    justify-content: center;
+    background-color: lavender;
+    height: 60px;
+}
+
+article{
+    background-color: rgb(161, 100, 219);
+    width: 70%;
+    float: left;
+    height: 245px;
+}
+
+aside{
+    
+    background-color: bisque;
+    width: 30%;
+    float: left;
+    height: 245px;
+}
+aside h2{
+    padding: 10px;
+    
+}
+aside ul{
+    list-style: none;
+    
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    clear: both;
+    background-color: violet;
+    height: 185px;
+}
+footer a {
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+footer a:hover{
+    background-color: white;
+    color: blue;
+    
+}
+.post {
+    text-align: center;
+}
