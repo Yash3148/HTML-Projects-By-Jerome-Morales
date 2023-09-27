@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&family=Montserrat:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    background-color: steelbluea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image:url(Camp-Nou.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+
+}
+
+.container .card{
+    width: 40vw;
+    margin: 30px;
+    height: 400px;
+    box-shadow: 20px 20px 50px rgb(0,0,1);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid rgb(248, 248, 248, 0.5);
+    backdrop-filter: blur(0.4px);
+
+}
